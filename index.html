@@ -21,29 +21,95 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="favicon" href="./favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
   </head>
-  <div class="page">
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav__links">
-          <li>
-            <a class="nav__link">Recipes</a>
-            <a class="nav__link">Book a Table</a>
-            <a class="nav__link">Menu</a>
-            <a class="nav__link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="content">
-      <body>
-        <section class="recipes"></section>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            rel="Black Triple Espresso Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a class="nav__link">Recipes</a></li>
+            <li><a class="nav__link">Book a Table</a></li>
+            <li><a class="nav__link">Menu</a></li>
+            <li><a class="nav__link">Contacts</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Specialty Coffee</h1>
+        <h2 class="header__sub-title">in the Triple Peaks Library</h2>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you
+          and&NonBreakingSpace;the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          rel="Student studying at Triple Espresso Cafe."
+          class="header__image"
+        />
+        <div class="header__footer">
+          <ul class="header__hours">
+            <li class="header__hours__item">
+              <a>Hours:</a>
+            </li>
+            <li class="header__hours__item">
+              <a>Monday – Friday (10:00 – 19:00)</a>
+            </li>
+            <li class="header__hours__item">
+              <a>Hours: Saturday – Sunday (11:00)</a>
+            </li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="recipes">
+          <div class="recipes__content">
+            <h2 class="recipes__title">Recipes</h2>
+            <h3 class="recipes__description">
+              Check out some recipes we've collected for your home-brewing
+              convenience.
+            </h3>
+            <ul class="recipes__videos">
+              <li>
+                  <iframe
+                    width="480"
+                    height="273"
+                    src="https://www.youtube.com/embed/j6VlT_jUVPc?si=fKishcS3G70eYLjw"
+                    title="Aeropress"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    >Aeropress Recipe</iframe>
+                  <p class="recipes__video-caption">Aeropress Recipe ~5min</p>
+                </li>
+                <li>
+                  <iframe
+                    width="480"
+                    height="273"
+                    src="https://www.youtube.com/embed/st571DYYTR8?si=ihHgGL7ysRnxwGJu"
+                    title="French Press"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <p class="recipes__video-caption">French Press Recipe ~15min</p>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </section>
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>
-      </body>
-    </main>
-    <footer class="footer"></footer>
-  </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
