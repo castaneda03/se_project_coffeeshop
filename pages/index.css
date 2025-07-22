@@ -306,7 +306,7 @@
   background-color: #3f96f3;
   transition-property: background-color;
   transition-duration: 1s;
-  transition-timing-function: smoooth;
+  transition-timing-function: ease-in;
   cursor: pointer;
 }
 
