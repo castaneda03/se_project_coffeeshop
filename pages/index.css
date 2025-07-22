@@ -233,6 +233,9 @@
 .reservation__form {
   max-width: 385px;
   margin: 0px auto;
+}
+
+.form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -256,7 +259,7 @@
   color: #000;
 }
 
-.reservation__input {
+.reservation__form_input {
   margin-bottom: 32px;
   width: 100%;
   padding: 15px 20px;
@@ -273,7 +276,7 @@
   border-color: #838383;
 }
 
-.reservation__input::placeholder {
+.reservation__form_input::placeholder {
   color: #838383;
 }
 
@@ -288,7 +291,7 @@
   border: none;
 }
 
-.reservation__submit_button {
+.reservation__form_button {
   width: 100%;
   background-color: #1878dc;
   padding: 20px 0px;
@@ -302,7 +305,7 @@
   border-radius: 4px;
 }
 
-.reservation__submit_button:hover {
+.reservation__form_button:hover {
   background-color: #3f96f3;
   transition-property: background-color;
   transition-duration: 1s;
@@ -321,7 +324,7 @@
   border-radius: 2px;
 }
 
-.reservation__checkbox:hover {
+.reservation__form_checkbox:hover {
   cursor: pointer;
 }
 
