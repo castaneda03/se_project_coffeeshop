@@ -34,10 +34,10 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a class="nav__link">Recipes</a></li>
-            <li><a class="nav__link">Book a Table</a></li>
-            <li><a class="nav__link">Menu</a></li>
-            <li><a class="nav__link">Contacts</a></li>
+            <li><a class="nav__link" href="#recipe-videos">Recipes</a></li>
+            <li><a class="nav__link" href="#book-a-table">Book a Table</a></li>
+            <li><a class="nav__link" href="#menu-items">Menu</a></li>
+            <li><a class="nav__link" href="#about-cafe">Contacts</a></li>
           </ul>
         </nav>
         <h1 class="header__title">Specialty Coffee</h1>
@@ -70,7 +70,7 @@
       </header>
 
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recipe-videos">
           <div class="recipes__content">
             <h2 class="recipes__title">Recipes</h2>
             <h3 class="recipes__subtitle">
@@ -106,9 +106,99 @@
             </ul>
           </div>
         </section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a Table</h2>
+          <form class="reservation__form">
+            <fieldset class="reservation__form_fieldset">
+              <label
+                class="reservation__form_label"
+                for="reservation-input-name"
+              >
+                Name *</label
+              >
+              <input
+                type="text"
+                class="reservation__input"
+                id="reservation-input-name"
+                placeholder="  Name Surname"
+                required
+              />
+            </fieldset>
+            <fieldset class="reservation__form_fieldset">
+              <label
+                class="reservation__form_label"
+                for="reservation-input-guests"
+              >
+                Number of Guests *</label
+              >
+              <input
+                type="number"
+                class="reservation__input"
+                id="reservation-input-guests"
+                min="1"
+                max="8"
+                placeholder="  1-8"
+                required
+              />
+            </fieldset>
+            <fieldset class="reservation__form_fieldset">
+              <label
+                class="reservation__form_label"
+                for="reservation-input-date"
+              >
+                Date & Time *</label
+              >
+              <input
+                type="datetime-local"
+                class="reservation__input"
+                id="reservation-input-date"
+                min="2025-07-22T09:00"
+                max="2030-07-22T09:00"
+                required
+              />
+            </fieldset>
+            <fieldset class="reservation__form_fieldset">
+              <label
+                class="reservation__form_label"
+                for="reservation-input-email"
+              >
+                Your Email *</label
+              >
+              <input
+                type="email"
+                class="reservation__input"
+                id="reservation-input-email"
+                placeholder="  email@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="reservation__form_fieldset_button">
+              <button type="submit" class="reservation__submit_button">
+                Book a Table
+              </button>
+            </fieldset>
+            <fieldset class="reservation__form_fieldset_checkbox">
+              <input
+                type="checkbox"
+                class="reservation__checkbox"
+                id="reservation-checkbox"
+                required
+              />
+              <label
+                class="reservation__form_checkbox_label"
+                for="reservation-checkbox"
+              >
+                I agree to Terms & Conditions</label
+              >
+            </fieldset>
+          </form>
+        </section>
+        <section class="menu" id="menu-items">
+          <!-- <h2 class="cafe__title">Cafe Menu</h2> -->
+        </section>
+        <section class="about" id="about-cafe">
+          <!-- <h2 class="about__title">About The Cofee Shop</h2> -->
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
