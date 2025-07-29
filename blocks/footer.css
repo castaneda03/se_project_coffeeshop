@@ -3,7 +3,6 @@
   padding: 60px 80px;
   position: relative;
   box-sizing: border-box;
-  background-color: #0a2850;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
@@ -12,10 +11,6 @@
   display: flex;
   justify-content: space-between;
 }
-
-/* .footer__column {
-  justify-content: space-between;
-  */
 
 .footer__column_content_social {
   /* margin-left: 80px; */
@@ -71,12 +66,12 @@
   line-height: 20px;
   color: #fff;
   transition: opacity 1s ease-in-out;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {
-  /* color: #c1c1c1; */
   opacity: 70%;
-  /* transition: opacity 0.5s ease-in-out; */
 }
 
 .footer__social-icon {
