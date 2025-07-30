@@ -43,7 +43,7 @@
   display: block;
 }
 
-.header__paragraph {
+.header__description {
   margin: 0px;
   padding-top: 28px;
   max-width: 683px;
@@ -75,7 +75,7 @@
   color: #6f6f6f;
 }
 
-.header__address {
+.header__paragraph {
   align-content: flex-end;
   margin: 0;
   font-family: "Inter";

@@ -36,14 +36,6 @@
 }
 
 .about__circle_animation_blurred {
-  /* width: 426px;
-  height: 426px;
-  background-color: #2f80ed;
-  z-index: -2;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px; */
   animation: pulsate 1.3s ease-in-out 0s forwards infinite;
 }
 
@@ -61,14 +53,12 @@
 }
 
 .about__content {
-  width: 660px;
+  max-width: 660px;
   margin: 0px;
   padding-top: 19px;
-  /* padding-bottom: 20px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  /* align-content: flex-end; */
   justify-content: flex-end;
 }
 
@@ -81,4 +71,8 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+}
+
+.about__paragraph:last-child {
+  margin: 0;
 }
