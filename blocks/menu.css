@@ -9,10 +9,6 @@
   background-size: cover;
 }
 
-.menu__content {
-  margin: 0px;
-}
-
 .menu__title {
   display: flex;
   justify-content: center;
@@ -40,7 +36,6 @@
 
 .menu__cards {
   margin-bottom: 100px;
-  /* width: 1180px; */
   display: flex;
   flex-wrap: wrap;
   gap: 100px;
